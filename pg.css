@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+.background {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    height: 100vh;
+    padding-top: 2px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2%;
+}
+
+.display {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.grade {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.playerX {
+ color: #c7477e;
+}
+
+.playerO {
+    color: #6095d2;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #f495be;
+}
+
+#reset {
+    background-color: #c7477e;
+}
